@@ -1,6 +1,6 @@
 # Hole-Master
-> Một tựa game **Casual/Puzzle** được phát triển bằng Unity.
-> **Gameplay:** Điều khiển hố đen thu thập vật thể để tăng kích thước, nuốt chửng mọi thứ trên bản đồ.
+A **Casual / Puzzle** game developed with Unity.  
+**Gameplay:** Control a growing black hole to collect objects, increase its size, and consume everything on the map.
 
 ![Gameplay Demo](https://github.com/maithuong-dev/Hole-Master/blob/5bf9f943815c38bbd24b637077c38d03e8aeb9d0/Gif/HoleGif.gif)
 
@@ -8,31 +8,34 @@
 
 ## Links Demo
 
-* **Video Gameplay:** [Xem trên YouTube](https://youtu.be/XV3I5SKgXkk)
-* **Chơi thử:** [Chơi trên web itch.io](https://maithuong.itch.io/hole-master)
+* **Gameplay Video:** [YouTube](https://youtu.be/XV3I5SKgXkk)
+* **Playable Build:** [Itch.io](https://maithuong.itch.io/hole-master)
 
 ---
 
 ## Tech Stack
-* **Engine:** Unity 3D
-* **Language:** C#
-* **Core Tech:** Custom Shader, Binary Serialization, Physics Optimization.
+- **Game Engine:** Unity 3D  
+- **Programming Language:** C#  
+- **Core Technologies:**  
+  - Custom Shader  
+  - Binary Serialization  
+  - Physics Optimization
 
 ---
 
 ## Key Features
 
-* Áp dụng **Singleton Pattern** cho các hệ thống quản lý trung tâm
-(Sound, Level, Data).
-* Sử dụng **Custom Shader (ZWrite Off)** để xử lý Depth Buffer, tạo hiệu
-ứng thị giác "hố không đáy".
-* Xây dựng hệ thống **Binary Serialization** (sử dụng Binary Formatter)
-để mã hóa và lưu trữ dữ liệu (Gold, Items, Level).
-* Sử dụng kỹ thuật **Culling Physics**: Chỉ kích hoạt Rigidbody cho vật
-thể khi nằm trong vùng tương tác.
+- Implemented **Singleton Pattern** for central management systems  
+  (Sound, Level, Data).
+- Developed a **Custom Shader (ZWrite Off)** to handle depth buffer rendering,  
+  creating the visual effect of an "endless hole".
+- Built a **Binary Serialization system** (using BinaryFormatter)  
+  to store and load player data (Gold, Items, Levels).
+- Applied **Physics Culling optimization** by activating Rigidbody components  
+  only when objects are within the interaction area.
 
 ---
 
-## 📬 Contact
+## Contact
 * **Name:** Mai Xuân Thường
 * **Email:** maithuong.dev@gmail.com
