@@ -2,7 +2,7 @@
 > Một tựa game **Casual/Puzzle** được phát triển bằng Unity.
 > **Gameplay:** Điều khiển hố đen thu thập vật thể để tăng kích thước, nuốt chửng mọi thứ trên bản đồ.
 
-![Gameplay Demo]()
+![Gameplay Demo](https://github.com/maithuong-dev/Hole-Master/blob/5bf9f943815c38bbd24b637077c38d03e8aeb9d0/Gif/HoleGif.gif)
 
 ---
 
